@@ -29,3 +29,21 @@ Git is an example of a distributed version control system
 5. **Pull**: Fetch changes from a remote repository and merge them into the current branch.
 
 6. **Status**: Show the status of working directory and staging area.
+
+## Additional Commands
+7. **Log**: Show commit logs.
+
+8. **Diff**: Check the difference between commits.
+
+9. **Checkout**: Change to another commit.
+
+10. **Reset**: Revert to a previous commit (loses changes made after it, use with caution).
+
+## Branching
+Branching allows for parallel development without affecting the main branch. It's useful for isolating features, bug fixes, or experiments.
+
+To create a new branch: <br>
+git branch <branch_name>
+
+To switch to a branch: <br>
+git checkout <branch_name>
