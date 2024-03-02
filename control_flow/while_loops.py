@@ -27,9 +27,10 @@ while x < 10:
 # Write a brief comment on the line before the code which increments x to explain what would happen if you don't increment x.
 #
 # Copy and paste your working 'while loop' underneath the 'while loop'. Modify the second copy of the 'while loop' so that it breaks out of the loop when x equals 4.The output should be:
+print()
 x = 0
 while x < 10:
-    print(f"the value of y is {x}")
+    print(f"the value of x is {x}")
     if x == 4:
         break
     x += 1
