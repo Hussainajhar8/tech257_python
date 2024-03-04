@@ -20,5 +20,4 @@ else:
 # Save the conversion in a new file output.yaml
 
 with open(sys.argv[2], 'w') as yaml_file:
-    yaml.du
-    mp(source_content, yaml_file)
+    yaml.dump(source_content, yaml_file)
