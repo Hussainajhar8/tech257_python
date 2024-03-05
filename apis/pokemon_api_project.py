@@ -17,7 +17,7 @@ def fetch_all_pokemon():
 
     return pokemon_names
 
-print("\nWelcome to Pokemon Showdown! Please wait whilst the game loads...")
+print("\nWelcome to Pokemon Showdown! Please wait whilst the game loads.")
 print("\nLoading...")
 real_pokemon_list = fetch_all_pokemon()
 print("\nLoading done! Game is ready to begin! Please pick your Pokemon!")
@@ -149,15 +149,15 @@ while True:
         player_2_hp = player_2_hp_after_attack
         print(f"{player_2.capitalize()} hp is now {player_2_hp}\n")
         if player_2_hp <= 0:
-            print(f"{player_2.capitalize()} has landed a fatal blow! {player_1.capitalize()} has been defeated.\n")
-            winner = player_2
+            print(f"{player_1.capitalize()} has landed a fatal blow! {player_2.capitalize()} has been defeated.\n")
+            winner = player_1
             break
         player_1_hp_after_attack = attack(player_2, player_1, player_2, player_1_hp, player_2_hp)
         player_1_hp = player_1_hp_after_attack
         print(f"{player_1.capitalize()} hp is now {player_1_hp}\n")
         if player_1_hp <= 0:
-            print(f"{player_1.capitalize()} has landed a fatal blow! {player_2.capitalize()} has been defeated.\n")
-            winner = player_1
+            print(f"{player_2.capitalize()} has landed a fatal blow! {player_1.capitalize()} has been defeated.\n")
+            winner = player_2
             break
         else:
             continue
