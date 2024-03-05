@@ -1,6 +1,3 @@
-Certainly! Here's the entire document with each point broken across multiple lines for easier reading in your IDE:
-
-
 # API Research
 
 ## 1. What are APIs?
