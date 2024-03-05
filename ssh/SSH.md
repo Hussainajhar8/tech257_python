@@ -8,6 +8,8 @@ It provides a secure channel for data exchange and remote command execution.
 SSH stands for Secure Shell or Secure Socket Shell. It provides a secure way to access and manage remote devices or servers securely over a network.
 SSH encrypts data during transmission, preventing unauthorized access to sensitive information.
 
+![img_1.png](img_1.png)
+
 ## Why Use SSH Over HTTPS?
 
 While HTTPS (Hypertext Transfer Protocol Secure) also provides secure communication over the internet, SSH offers several advantages:
@@ -32,3 +34,4 @@ Here is an example of a command to create a key pair for SSH:
 - Update Regularly: Keep SSH software and configurations up to date, rotate and audit keys.
 - Use Two-Factor Authentication (2FA): Implement 2FA for SSH authentication for an added layer of security.
 - Monitor SSH Logs: Regularly monitor SSH logs for suspicious activities and unauthorized access attempts.
+
