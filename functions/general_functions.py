@@ -13,7 +13,7 @@ def multi_args(*multiargs):
 
 
 def greeting(name: str):
-    print("Hello, my name is" + name)
+    print("Hello, my name is " + str(name))
 
 greeting(2002)
 
